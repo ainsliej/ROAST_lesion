@@ -10,6 +10,7 @@ This is a truncated version of ROAST which just runs segmentation and then stops
  
 - roast7 
 This is a version of ROAST which allows for a 7th tissue type. You must input all the files that are output from roast_seg, either with or without your own edits. 
+The filenames for additional scripts edited from the original roast pipeline end with the number '7'. 
 
 N.B. zeropadding, resampling and RAS reorienting are all turned off in roast_seg and roast7. You should make sure your inputs are already correctly oriented before you run these scripts. A function (PrepForROAST.m) to perform this is included here also. 
 
